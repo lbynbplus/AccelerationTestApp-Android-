@@ -1,18 +1,215 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="@drawable/new_background">
+
+
+    <!-- Your existing code... -->
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/circuit_racing_text"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="128dp"
+        android:gravity="center"
+        android:text="Circuit Racing"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:background="@drawable/textview_border"
+        app:layout_constraintEnd_toStartOf="@+id/street_racing_text"
+        app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/street_racing_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:gravity="center"
+        android:text="Street Racing"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:background="@drawable/textview_border"
+        app:layout_constraintEnd_toStartOf="@+id/drag_racing_text"
+        app:layout_constraintStart_toEndOf="@+id/circuit_racing_text"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/drag_racing_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:gravity="center"
+        android:text="Drag Racing"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:background="@drawable/textview_border"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/street_racing_text"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/drag_racing_options"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/drag_racing_text"
+        app:layout_constraintStart_toStartOf="@+id/drag_racing_text"
+        app:layout_constraintTop_toBottomOf="@+id/drag_racing_text">
+
+        <Button
+            android:id="@+id/quarter_mile_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quarter-Mile"
+            />
+
+        <Button
+            android:id="@+id/eighth_mile_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eighth-Mile"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/zero_to_100_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0-100km/h"
+            android:layout_marginTop="8dp"/>
+    </LinearLayout>
+
+    <!-- Rest of your existing code... -->
+
+
+    <!-- 标题 -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="AccelerationTest"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Time -->
+
+    <!-- Model -->
+
+    <!-- Weather -->
+
+    <TextView
+        android:id="@+id/timeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="280dp"
+        android:text="12:30 PM"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/title" />
+
+    <TextView
+        android:id="@+id/carModelText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="Car Model: XYZ"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:layout_constraintBaseline_toBaselineOf="@id/title"
+        app:layout_constraintStart_toEndOf="@id/title" />
+
+    <!-- 车辆选择 -->
+    <TextView
+        android:id="@+id/weatherText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Weather: Sunny, 25°C"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@id/carModelText"
+        app:layout_constraintTop_toBottomOf="@id/carModelText" />
+
+    <!-- 测速测试区间选择 -->
+
+    <Button
+        android:id="@+id/car_selection"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="424dp"
+        android:background="@drawable/round_button"
+        android:text="Go"
+        android:textColor="@color/green"
+        android:textSize="55sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/weatherText" />
+
+    <GridLayout
+        android:id="@+id/speed_test_selection"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:columnCount="3"
+        android:rowCount="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/car_selection">
+        <!-- 这里可以添加测速测试的按钮或其他组件 -->
+
+    </GridLayout>
+
+    <!-- Bottom -->
+    <LinearLayout
+        android:id="@+id/bottom_navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <!-- Personal information button -->
+        <Button
+            android:id="@+id/personal_info_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:text="Personal Info"
+            android:background="@null"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            />
+
+        <!-- Ranking Button -->
+        <Button
+            android:id="@+id/leaderboard_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="12dp"
+            android:text="Ranking"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:background="@null"/>
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
