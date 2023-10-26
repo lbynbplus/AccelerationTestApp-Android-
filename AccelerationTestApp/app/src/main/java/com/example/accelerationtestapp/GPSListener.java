@@ -23,6 +23,6 @@ public class GPSListener implements LocationListener {
     }
     @Override
     public void onLocationChanged(@NonNull Location location) {
-
+        onNewLocationData(location);
     }
 }

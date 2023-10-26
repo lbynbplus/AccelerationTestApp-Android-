@@ -29,7 +29,7 @@
 18-->[androidx.core:core:1.9.0] C:\Users\Administrator\.gradle\caches\transforms-3\55dedc70b95a473650eda30d4efd0f99\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 19
 20    <application
-20-->C:\Users\Administrator\Desktop\159336Ass3\AccelerationTestApp-Android-\AccelerationTestApp\app\src\main\AndroidManifest.xml:8:5-29:19
+20-->C:\Users\Administrator\Desktop\159336Ass3\AccelerationTestApp-Android-\AccelerationTestApp\app\src\main\AndroidManifest.xml:8:5-37:19
 21        android:allowBackup="true"
 21-->C:\Users\Administrator\Desktop\159336Ass3\AccelerationTestApp-Android-\AccelerationTestApp\app\src\main\AndroidManifest.xml:9:9-35
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -51,47 +51,60 @@
 31        android:theme="@style/Theme.AccelerationTestApp" >
 31-->C:\Users\Administrator\Desktop\159336Ass3\AccelerationTestApp-Android-\AccelerationTestApp\app\src\main\AndroidManifest.xml:16:9-57
 32        <activity
-32-->C:\Users\Administrator\Desktop\159336Ass3\AccelerationTestApp-Android-\AccelerationTestApp\app\src\main\AndroidManifest.xml:18:9-26:20
-33            android:name="com.example.accelerationtestapp.MainActivity"
-33-->C:\Users\Administrator\Desktop\159336Ass3\AccelerationTestApp-Android-\AccelerationTestApp\app\src\main\AndroidManifest.xml:19:13-41
-34            android:exported="true" >
-34-->C:\Users\Administrator\Desktop\159336Ass3\AccelerationTestApp-Android-\AccelerationTestApp\app\src\main\AndroidManifest.xml:20:13-36
-35            <intent-filter>
-35-->C:\Users\Administrator\Desktop\159336Ass3\AccelerationTestApp-Android-\AccelerationTestApp\app\src\main\AndroidManifest.xml:21:13-25:29
-36                <action android:name="android.intent.action.MAIN" />
-36-->C:\Users\Administrator\Desktop\159336Ass3\AccelerationTestApp-Android-\AccelerationTestApp\app\src\main\AndroidManifest.xml:22:17-69
-36-->C:\Users\Administrator\Desktop\159336Ass3\AccelerationTestApp-Android-\AccelerationTestApp\app\src\main\AndroidManifest.xml:22:25-66
-37
-38                <category android:name="android.intent.category.LAUNCHER" />
-38-->C:\Users\Administrator\Desktop\159336Ass3\AccelerationTestApp-Android-\AccelerationTestApp\app\src\main\AndroidManifest.xml:24:17-77
-38-->C:\Users\Administrator\Desktop\159336Ass3\AccelerationTestApp-Android-\AccelerationTestApp\app\src\main\AndroidManifest.xml:24:27-74
-39            </intent-filter>
-40        </activity>
-41        <activity android:name="com.example.accelerationtestapp.PersonalInfoActivity" />
-41-->C:\Users\Administrator\Desktop\159336Ass3\AccelerationTestApp-Android-\AccelerationTestApp\app\src\main\AndroidManifest.xml:28:9-57
-41-->C:\Users\Administrator\Desktop\159336Ass3\AccelerationTestApp-Android-\AccelerationTestApp\app\src\main\AndroidManifest.xml:28:19-55
-42
-43        <provider
-43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-44            android:name="androidx.startup.InitializationProvider"
-44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-45            android:authorities="com.example.accelerationtestapp.androidx-startup"
-45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-46            android:exported="false" >
-46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-47            <meta-data
-47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-48                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-49                android:value="androidx.startup" />
-49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-50            <meta-data
-50-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Administrator\.gradle\caches\transforms-3\75d35fda4271de3dc184847093d1a2b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-51                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-51-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Administrator\.gradle\caches\transforms-3\75d35fda4271de3dc184847093d1a2b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-52                android:value="androidx.startup" />
-52-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Administrator\.gradle\caches\transforms-3\75d35fda4271de3dc184847093d1a2b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-53        </provider>
-54    </application>
-55
-56</manifest>
+32-->C:\Users\Administrator\Desktop\159336Ass3\AccelerationTestApp-Android-\AccelerationTestApp\app\src\main\AndroidManifest.xml:18:9-20:40
+33            android:name="com.example.accelerationtestapp.RegisterActivity"
+33-->C:\Users\Administrator\Desktop\159336Ass3\AccelerationTestApp-Android-\AccelerationTestApp\app\src\main\AndroidManifest.xml:19:13-45
+34            android:exported="false" />
+34-->C:\Users\Administrator\Desktop\159336Ass3\AccelerationTestApp-Android-\AccelerationTestApp\app\src\main\AndroidManifest.xml:20:13-37
+35        <activity
+35-->C:\Users\Administrator\Desktop\159336Ass3\AccelerationTestApp-Android-\AccelerationTestApp\app\src\main\AndroidManifest.xml:22:9-25:20
+36            android:name="com.example.accelerationtestapp.LoginActivity"
+36-->C:\Users\Administrator\Desktop\159336Ass3\AccelerationTestApp-Android-\AccelerationTestApp\app\src\main\AndroidManifest.xml:23:13-42
+37            android:exported="false" >
+37-->C:\Users\Administrator\Desktop\159336Ass3\AccelerationTestApp-Android-\AccelerationTestApp\app\src\main\AndroidManifest.xml:24:13-37
+38        </activity>
+39        <activity
+39-->C:\Users\Administrator\Desktop\159336Ass3\AccelerationTestApp-Android-\AccelerationTestApp\app\src\main\AndroidManifest.xml:27:9-34:20
+40            android:name="com.example.accelerationtestapp.MainActivity"
+40-->C:\Users\Administrator\Desktop\159336Ass3\AccelerationTestApp-Android-\AccelerationTestApp\app\src\main\AndroidManifest.xml:28:13-41
+41            android:exported="true" >
+41-->C:\Users\Administrator\Desktop\159336Ass3\AccelerationTestApp-Android-\AccelerationTestApp\app\src\main\AndroidManifest.xml:29:13-36
+42            <intent-filter>
+42-->C:\Users\Administrator\Desktop\159336Ass3\AccelerationTestApp-Android-\AccelerationTestApp\app\src\main\AndroidManifest.xml:30:13-33:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Users\Administrator\Desktop\159336Ass3\AccelerationTestApp-Android-\AccelerationTestApp\app\src\main\AndroidManifest.xml:31:17-69
+43-->C:\Users\Administrator\Desktop\159336Ass3\AccelerationTestApp-Android-\AccelerationTestApp\app\src\main\AndroidManifest.xml:31:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Users\Administrator\Desktop\159336Ass3\AccelerationTestApp-Android-\AccelerationTestApp\app\src\main\AndroidManifest.xml:32:17-77
+45-->C:\Users\Administrator\Desktop\159336Ass3\AccelerationTestApp-Android-\AccelerationTestApp\app\src\main\AndroidManifest.xml:32:27-74
+46            </intent-filter>
+47        </activity>
+48        <activity android:name="com.example.accelerationtestapp.PersonalInfoActivity" />
+48-->C:\Users\Administrator\Desktop\159336Ass3\AccelerationTestApp-Android-\AccelerationTestApp\app\src\main\AndroidManifest.xml:36:9-57
+48-->C:\Users\Administrator\Desktop\159336Ass3\AccelerationTestApp-Android-\AccelerationTestApp\app\src\main\AndroidManifest.xml:36:19-55
+49
+50        <provider
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+51            android:name="androidx.startup.InitializationProvider"
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+52            android:authorities="com.example.accelerationtestapp.androidx-startup"
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+53            android:exported="false" >
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+54            <meta-data
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+55                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+56                android:value="androidx.startup" />
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-3\58734ab3db9d01442ffac75a0ea2bc68\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+57            <meta-data
+57-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Administrator\.gradle\caches\transforms-3\75d35fda4271de3dc184847093d1a2b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+58                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Administrator\.gradle\caches\transforms-3\75d35fda4271de3dc184847093d1a2b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+59                android:value="androidx.startup" />
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Administrator\.gradle\caches\transforms-3\75d35fda4271de3dc184847093d1a2b0\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+60        </provider>
+61    </application>
+62
+63</manifest>

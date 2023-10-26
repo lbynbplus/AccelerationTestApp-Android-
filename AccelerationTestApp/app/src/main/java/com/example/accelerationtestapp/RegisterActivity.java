@@ -16,7 +16,8 @@ public class RegisterActivity extends AppCompatActivity {
     private EditText etUsername;
     private EditText etPassword;
     private TextView register;
-    private SharedPreferences msharedPreferences;
+    //private SharedPreferences msharedPreferences;
+    private DatabaseHelper databaseHelper;
 
 
     @Override
@@ -25,7 +26,10 @@ public class RegisterActivity extends AppCompatActivity {
         setContentView(R.layout.activity_register);
 
         //初始化SharedPreferences
-        msharedPreferences = getSharedPreferences("user",MODE_PRIVATE);
+        //msharedPreferences = getSharedPreferences("user",MODE_PRIVATE);
+
+        // 初始化DatabaseHelper
+        databaseHelper = new DatabaseHelper(this);
 
         //初始化控件
         mToolbar = findViewById(R.id.toolbar);
@@ -52,17 +56,14 @@ public class RegisterActivity extends AppCompatActivity {
 
                 if (TextUtils.isEmpty(username) || TextUtils.isEmpty(password)){
                     Toast.makeText(RegisterActivity.this, "The user name and password cannot be empty!", Toast.LENGTH_SHORT).show();
-
                 } else {
-                    //注册成功
-                    SharedPreferences.Editor edit = msharedPreferences.edit();
-                    edit.putString("username",username);
-                    edit.putString("password",password);
-
-                    edit.commit();//save data
-
-                    Toast.makeText(RegisterActivity.this, "Registered successfully! Please log in", Toast.LENGTH_SHORT).show();
-                    finish();
+                    if (!databaseHelper.checkUser(username)) {
+                        databaseHelper.addUser(username, password);
+                        Toast.makeText(RegisterActivity.this, "Registered successfully! Please log in", Toast.LENGTH_SHORT).show();
+                        finish();
+                    } else {
+                        Toast.makeText(RegisterActivity.this, "User already exists", Toast.LENGTH_SHORT).show();
+                    }
 
                 }
 

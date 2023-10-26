@@ -1,5 +1,4 @@
-package com.example.accelerationtestapp.;
-
+package com.example.accelerationtestapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -16,17 +15,17 @@ public class LoginActivity extends AppCompatActivity {
     private EditText etUsername;
     private EditText etPassword;
     private TextView login;
-    private SharedPreferences sharedPreferences;
+    //private SharedPreferences msharedPreferences;
+    private DatabaseHelper databaseHelper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        //初始化SharedPreferences
-        sharedPreferences = getSharedPreferences("user",MODE_PRIVATE);
 
-        //初始化控件
+        databaseHelper = new DatabaseHelper(this);
+
         register = findViewById(R.id.register);
         etUsername = findViewById(R.id.username);
         etPassword = findViewById(R.id.password);
@@ -51,15 +50,8 @@ public class LoginActivity extends AppCompatActivity {
                 if (TextUtils.isEmpty(username) || TextUtils.isEmpty(password)){
                     Toast.makeText(LoginActivity.this, "The user name or password cannot be empty!", Toast.LENGTH_SHORT).show();
                 }else{
-                    String name = sharedPreferences.getString("username","");
-                    String pwd = sharedPreferences.getString("password","");
-
-                    //判断用户名和密码是否正确
-                    if (username.equals(username) && password.equals(pwd)){
-
-                        //登陆成功，转跳主页面，后面可以根据需要的页面调整
-                        Intent intent = new Intent(LoginActivity.this,MainActivity.class);
-
+                    if (databaseHelper.checkUser(username,password)) {
+                        Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                         startActivity(intent);
                     } else {
                         Toast.makeText(LoginActivity.this, "Incorrect username or password!", Toast.LENGTH_SHORT).show();

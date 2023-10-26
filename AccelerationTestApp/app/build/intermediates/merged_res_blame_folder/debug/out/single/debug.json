@@ -1,94 +1,126 @@
 [
     {
-        "merged": "com.example.accelerationtestapp-merged_res-28:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.accelerationtestapp-main-30:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-merged_res-28:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-main-30:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.accelerationtestapp-merged_res-28:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.accelerationtestapp-main-30:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-merged_res-28:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-main-30:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.accelerationtestapp-merged_res-28:/drawable_round_button.xml.flat",
-        "source": "com.example.accelerationtestapp-main-30:/drawable/round_button.xml"
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-merged_res-28:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-main-30:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.accelerationtestapp-merged_res-28:/drawable_textview_border.xml.flat",
-        "source": "com.example.accelerationtestapp-main-30:/drawable/textview_border.xml"
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-merged_res-28:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-main-30:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.accelerationtestapp-merged_res-28:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.accelerationtestapp-main-30:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-merged_res-28:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-main-30:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.accelerationtestapp-merged_res-28:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.accelerationtestapp-main-30:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-merged_res-28:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-main-30:\\layout\\activity_login.xml"
     },
     {
-        "merged": "com.example.accelerationtestapp-merged_res-28:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.example.accelerationtestapp-main-30:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-merged_res-28:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-main-30:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.accelerationtestapp-merged_res-28:/layout_activity_ranking.xml.flat",
-        "source": "com.example.accelerationtestapp-main-30:/layout/activity_ranking.xml"
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-merged_res-28:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-main-30:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.accelerationtestapp-merged_res-28:/drawable_new_background.png.flat",
-        "source": "com.example.accelerationtestapp-main-30:/drawable/new_background.png"
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-merged_res-28:\\drawable_textview_border.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-main-30:\\drawable\\textview_border.xml"
     },
     {
-        "merged": "com.example.accelerationtestapp-merged_res-28:/xml_backup_rules.xml.flat",
-        "source": "com.example.accelerationtestapp-main-30:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-merged_res-28:\\drawable_baseline_lock_24.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-main-30:\\drawable\\baseline_lock_24.xml"
     },
     {
-        "merged": "com.example.accelerationtestapp-merged_res-28:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.accelerationtestapp-main-30:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-merged_res-28:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-main-30:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-merged_res-28:\\drawable_baseline_arrow_back_24.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-main-30:\\drawable\\baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "com.example.accelerationtestapp-merged_res-28:/layout_activity_test_data.xml.flat",
+        "source": "com.example.accelerationtestapp-main-30:/layout/activity_test_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-merged_res-28:\\drawable_my_image.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-main-30:\\drawable\\my_image.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-merged_res-28:\\layout_activity_ranking.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-main-30:\\layout\\activity_ranking.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-merged_res-28:\\drawable_baseline_account_circle_24.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-main-30:\\drawable\\baseline_account_circle_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-merged_res-28:\\drawable_round_button.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-main-30:\\drawable\\round_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-merged_res-28:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-main-30:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-merged_res-28:\\layout_activity_personal_info.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-main-30:\\layout\\activity_personal_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-merged_res-28:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-main-30:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-merged_res-28:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-main-30:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-merged_res-28:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-main-30:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-merged_res-28:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-main-30:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-merged_res-28:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-main-30:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-merged_res-28:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-main-30:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "com.example.accelerationtestapp-merged_res-28:/layout_activity_personal_info.xml.flat",
         "source": "com.example.accelerationtestapp-main-30:/layout/activity_personal_info.xml"
     },
     {
-        "merged": "com.example.accelerationtestapp-merged_res-28:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.accelerationtestapp-main-30:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-merged_res-28:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-main-30:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.accelerationtestapp-merged_res-28:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.accelerationtestapp-main-30:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-merged_res-28:\\layout_activity_test_data.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-main-30:\\layout\\activity_test_data.xml"
     },
     {
-        "merged": "com.example.accelerationtestapp-merged_res-28:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.accelerationtestapp-main-30:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-merged_res-28:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-main-30:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.accelerationtestapp-merged_res-28:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.accelerationtestapp-main-30:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-merged_res-28:\\drawable_new_background.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-main-30:\\drawable\\new_background.png"
     },
     {
-        "merged": "com.example.accelerationtestapp-merged_res-28:/layout_activity_main.xml.flat",
-        "source": "com.example.accelerationtestapp-main-30:/layout/activity_main.xml"
-    },
-    {
-        "merged": "com.example.accelerationtestapp-merged_res-28:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.accelerationtestapp-main-30:/mipmap-hdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.accelerationtestapp-merged_res-28:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.accelerationtestapp-main-30:/mipmap-mdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.accelerationtestapp-merged_res-28:/drawable_my_image.png.flat",
-        "source": "com.example.accelerationtestapp-main-30:/drawable/my_image.png"
-    },
-    {
-        "merged": "com.example.accelerationtestapp-merged_res-28:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.accelerationtestapp-main-30:/drawable/ic_launcher_background.xml"
-    },
-    {
-        "merged": "com.example.accelerationtestapp-merged_res-28:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.accelerationtestapp-main-30:/mipmap-xxxhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.accelerationtestapp-merged_res-28:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.accelerationtestapp-main-30:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-merged_res-28:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.0\\com.example.accelerationtestapp-main-30:\\mipmap-mdpi\\ic_launcher.webp"
     }
 ]

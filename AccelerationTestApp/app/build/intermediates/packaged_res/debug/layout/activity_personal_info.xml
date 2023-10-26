@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
@@ -24,7 +25,7 @@
         android:layout_marginTop="8dp"
         android:textSize="18sp"
         android:textColor="@android:color/white"
-        android:hintTextColor="@android:color/white"
+        android:textColorHint="@android:color/white"
         android:backgroundTint="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,7 +50,7 @@
         android:layout_marginTop="8dp"
         android:textSize="18sp"
         android:textColor="@android:color/white"
-        android:hintTextColor="@android:color/white"
+        android:textColorHint="@android:color/white"
         android:backgroundTint="@android:color/white"
 
         app:layout_constraintEnd_toEndOf="parent"
@@ -76,7 +77,7 @@
         android:inputType="number"
         android:textSize="18sp"
         android:textColor="@android:color/white"
-        android:hintTextColor="@android:color/white"
+        android:textColorHint="@android:color/white"
         android:backgroundTint="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -101,7 +102,7 @@
         android:layout_marginTop="8dp"
         android:textSize="18sp"
         android:textColor="@android:color/white"
-        android:hintTextColor="@android:color/white"
+        android:textColorHint="@android:color/white"
         android:backgroundTint="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -121,7 +122,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
+
         <!-- Home Button -->
+
         <Button
             android:id="@+id/homeButton"
             android:layout_width="0dp"
@@ -133,15 +136,15 @@
             android:textStyle="bold"
             android:background="@null" />
 
-        <!-- Ranking Button -->
+        <!-- Login Button -->
         <Button
-            android:id="@+id/rankingButton"
+            android:id="@+id/loginButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@null"
             android:padding="12dp"
-            android:text="Ranking"
+            android:text="Login"
             android:textSize="28sp"
             android:textStyle="bold" />
 

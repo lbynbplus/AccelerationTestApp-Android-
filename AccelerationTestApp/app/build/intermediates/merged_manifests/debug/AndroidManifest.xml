@@ -30,6 +30,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AccelerationTestApp" >
         <activity
+            android:name="com.example.accelerationtestapp.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.accelerationtestapp.LoginActivity"
+            android:exported="false" >
+        </activity>
+        <activity
             android:name="com.example.accelerationtestapp.MainActivity"
             android:exported="true" >
             <intent-filter>
