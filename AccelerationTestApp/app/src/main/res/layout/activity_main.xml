@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/new_background">
 
 
-    <!-- Your existing code... -->
 
     <TextView
         android:id="@+id/circuit_racing_text"
@@ -143,16 +143,17 @@
 
     <!-- 测速测试区间选择 -->
 
+
     <Button
         android:id="@+id/car_selection"
         android:layout_width="120dp"
         android:layout_height="120dp"
-        android:layout_marginTop="424dp"
+        android:layout_marginTop="364dp"
         android:background="@drawable/round_button"
         android:text="Go"
         android:textColor="@color/green"
         android:textSize="55sp"
-        android:textStyle="bold" 
+        android:textStyle="bold"
         android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -186,6 +187,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
+        <!-- Login Button -->
+
+
         <!-- Personal information button -->
         <Button
             android:id="@+id/personal_info_button"
@@ -199,18 +203,10 @@
             android:textStyle="bold"
             />
 
-        <!-- Ranking Button -->
-        <Button
-            android:id="@+id/leaderboard_button"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:padding="12dp"
-            android:text="Ranking"
-            android:textSize="28sp"
-            android:textStyle="bold"
-            android:background="@null"/>
 
     </LinearLayout>
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
